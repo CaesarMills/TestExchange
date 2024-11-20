@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:textColor = "?android:textColorPrimary"
+    tools:context=".presentation.loginScreen.LoginFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exchange market"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginBottom="60dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tx_layout_login"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        app:cursorColor="@color/black"
+        app:hintTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/dark_blue"
+        app:helperTextTextColor="@color/light_green"
+        android:layout_marginHorizontal="50dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lines="1"
+
+
+            android:textColorHint="@color/black"
+            android:gravity="center"
+            android:hint="Login"
+            android:inputType="textCapWords"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:maxLength="15"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        app:cursorColor="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/dark_blue"
+        app:helperTextTextColor="@color/light_green"
+        app:counterEnabled="true"
+        app:counterMaxLength="4"
+        app:passwordToggleEnabled="true"
+        android:layout_marginHorizontal="50dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_pinCode"
+            android:lines="1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint=" Enter your Pin code"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:maxLength="4"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Login"
+        android:gravity="center"
+        android:backgroundTint="@color/dark_blue"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register new User"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
+

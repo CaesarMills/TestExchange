@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#014f86</color>
+    <color name="light_green">#48CC4D</color>
+    <color name="light_red">#FA3729</color>
+    <color name="light_blue">#8ecae6</color>
+    <color name="light_card">#3a7ca5</color>
+    <color name="dark_my">#2f6690</color>
+    <color name="dark_card">#2448A5</color>
+    <color name="green">#347711</color>
+
+
+    <color name="colorPrimary">#014f86</color>
+    <color name="colorPrimaryDark">#014f86</color>
+    <color name="colorAccent">#1bade3</color>
+    <color name="myBackground">#f8f9fa</color>
+
+    <style name="HelperTextAppearance" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+</resources>
